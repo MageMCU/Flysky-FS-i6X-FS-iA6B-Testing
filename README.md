@@ -1,1 +1,1 @@
-# Flysky-FS-i6X_and_FS-iA6B-Testing
+# Flysky FS-i6X and FS-iA6B Testing
