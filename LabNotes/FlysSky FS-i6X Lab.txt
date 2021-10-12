@@ -1,0 +1,100 @@
+ Carpenter Software Review
+ Date 20211010
+
+ (1) FlySky FS-i6X (FSX) No.1A024431 Made in China.
+     Digital Proportional Radio Control System
+     FS-iA6B Receiver (FSB) No.1A024431
+     Cable & Bind Cable
+     Amazon Price about $50 USA
+     Amazon Vender (kept secret)
+	 
+ (2) FCC ID: N4ZFLYSKYI6X
+     (a) Internet Search:
+         FCC ID N4ZFLYSKYI6X
+         Has several documents used
+         as references...
+		(i) User-Manual-3044503 (Title: FSi6X Instruction Manual)
+		(ii) REPORT-4791384 (Title: Test Report)
+		(iii) Internal-Photos-3044498 (Photos of the inside of FS-i6X)
+		(iv) Test-Report-3044497 (Title: Test-Report-3044497)*
+		     *has 59 pages of lab testing...
+        (v) RF-Exposure-3044501
+		(others) not listed here.
+		SOURCE: FS-i6X Instruction Manual (Front Cover - Lower Left)
+
+ (3) Supplemental Material
+     Notes on the FlySky FS-i6
+     source: rcgroups.com
+      (a) Internet Search: nothing...
+	      Must Sign-In as member.
+		  Covers both FS-i6 and especially the FS-iA6B ****************** FS-iA6B
+
+ (4) CS eLab
+     (a) As delievered Default Settings
+         (i) FSX firmware version 1.0 20-SEP-2019 HARD_Ver:V1.0
+	     (ii) Factory reset (good)
+         (iii) Firmware update (good)
+         (iv) Same as (i)
+
+     (b) Power-On at 0.6 to 1.1 amperes.
+         (i) Battery indicator manual section 2.2.2.
+             Indicator flucuating along with
+             the current (could be searching
+             for a link).
+         (ii) FS-iA6B battery TX.V1(5.14 <-> 6.27)V (Volts)
+
+     (c) * FS-iA6B:ON * FS-i6X:OFF *
+          (i) FS-iA6B Receiver on.
+              Blinking LED.
+
+     (d) FS-iA6B:ON FS-i6X:ON 
+          (i) FS-iA6B Receiver on.
+          (ii) FS-i6X on. Panel Flashing.
+          (iii) Receiver LED no longer blinking.
+          (iv) FS-i6X Panel indicated made connection
+               to receiver - no binding necessary.
+		  (v) FS-i6X Panel has both battery indicators:
+		      One for the FS-i6X and one for the receiver.
+		  (vi) FSX battery indicator has less flucuations
+               on average of 0.6 amps.
+			   
+ --------------------- (a-d) OK
+
+	 (e) PWM, PPM, i-BUS FS-iA6B transceiver outputs
+         Manual: Could NOT find any information from FLYSKY on 
+                 Pulse Width Modulation nor Frequencies except
+                 what was located in the FS-i6X Panel.
+                 
+	     (i) Manual section 8.10 Servos Freq is completely USSLESS.
+		 (ii) FS-i6X Panel: RX setup - Output mode
+         -------------------------------------------------
+                   Output                 Serial
+		 -------------------------------------------------
+                  --> PWM              --> i-BUS       
+                      PPM                  S.BUS
+               **** LAB **** Only PWM will be tested
+     Receiver:
+     PWM - Channels 1-6 vertical connections...    
+     i-BUS horizonal connection...
+     REASON FOR TEST: To test the (1) GIMBALS (JOYSTICKS) 
+                                  (2) POTENTIOMETERS (Knobs)
+                                  (3) SWITCHES
+     For manufacturing defects, assembling mistakes, or shipping handling damage...
+
+     (f) Panel: System - RX Setup - Servos freq: 50 
+                Assume to be in the unit (Hz) this sequence is repeated every 20ms
+                                    **** Lab **** Only default 50Hz will be tested
+         Manual section 8.10 Servos Freq is completely USSLESS
+
+See Arduino Uno sketch for further details.... 
+
+SIMULATION - Arduino Uno - Serial Debug
+             PlatformIO (VS Code) on Windows PC
+FS-i6X - 6V DC Power Supply
+FS-iA6B - 5V DC Power Supply
+
+TEST-RESULTS FOR RIGHT GIMBAL (JOYSTICK) - OK
+Lab Test Ends here for right gimbal...
+
+Moving On.... jc 20211011
+ 
