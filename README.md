@@ -7,7 +7,7 @@
 
 </hr>
 
-## About MCU Algorithms <a name="about-flysky"></a>
+## About Flysky <a name="about-flysky"></a>
 
 The Flysky *FS-i6X and FS-iA6B Testing* is about using code and the Arduino Uno to test (or understand) how the Pulse Width Modulation (PWM) performs with the FS-iA6B Receiver using the  default settings on the FS-i6X Transmitter.
 
