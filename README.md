@@ -1,15 +1,15 @@
-# Flysky FS-i6X and FS-iA6B Testing
+# Testing FS-i6X and FS-iA6B 
 
 ## Index
 
-- [About - Flysky FS-i6X and FS-iA6B Testing](#about-flysky)
+- [About - Testing FS-i6X and FS-iA6B ](#about-testing)
   - [MCU Chips](#mcu-chips)
 
 </hr>
 
-## About Flysky <a name="about-flysky"></a>
+## About Testing <a name="about-testing"></a>
 
-The Flysky *FS-i6X and FS-iA6B Testing* is about using code and the Arduino Uno to test (or understand) how the Pulse Width Modulation (PWM) performs with the FS-iA6B Receiver using the  default settings on the FS-i6X Transmitter.
+The *Testing FS-i6X and FS-iA6B* products by Flysky is about using code and the Arduino Uno to test (or understand) how the Pulse Width Modulation (PWM) performs with the FS-iA6B Receiver using the default settings on the FS-i6X Transmitter.
 
 The Radio Control is quite inexpensive. Only two test were made to determine whether the testing can be accomplished using Arduino Uno. The first test was a self-test with itself on the Arduino Uno. The reason for the self-test was that the frequencies for Arduino's PWM pins are known. This would be used as a check whether the source code would be viable for testing Flysky. 
 
@@ -24,6 +24,7 @@ This MCU chip **Atmega328P** is well known and the price is affordable as well a
 
 </hr>
 
-More Flysky testing to come.
+More testing to come.
 
-revision 20211012
+revision 20211114 (Article Title)
+initial upload 20211012
