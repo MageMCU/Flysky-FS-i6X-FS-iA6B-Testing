@@ -28,3 +28,7 @@ More testing to come.
 
 revision 20211114 (Article Title)<br/>
 initial upload 20211012
+
+## Disclaimer and Terms
+
+Please follow the ***Disclaimer*** and ***Terms*** in the ***Testing FS-i6X and FS-iA6B*** Depository.
