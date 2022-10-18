@@ -2,8 +2,6 @@
 
 - namespace ***uno***
 
-## Article 2005
-
 ## ***include folder***
 
 **Following classes are stand-alone**
@@ -12,8 +10,6 @@
 ***Dependencies***
 - ***Timer.h***        (Located in the Joystick_Uno_Depository.)
 - ***Math.h***         (Located in the Numerics Depository.)
-
-## LabNotes
 
 ## ***src folder***
 
