@@ -1,13 +1,11 @@
-# Testing FS-i6X and FS-iA6B 
+## Testing Flysky FS-i6X Transmitter and FS-iA6B Receiver
 
 - namespace ***uno***
 
 ## Index
 
 - [About - Testing FS-i6X and FS-iA6B ](#about-testing)
-  - [MCU Chips](#mcu-chips)
-
-</hr>
+- [MCU Chips](#mcu-chips)
 
 ## About Testing <a name="about-testing"></a>
 
@@ -23,8 +21,6 @@ The Class FSi6X is the heart of the testing. The map() function was also used to
 ## MCU chips  <a name="mcu-chips"></a>
 
 This MCU chip **Atmega328P** is well known and the price is affordable as well as most of the robotic hardware that is used here. The **cheaper** ... the **better**... Knowledge for those who are **starving** to learn.
-
-</hr>
 
 More testing to come.
 

@@ -11,7 +11,7 @@
 
 #include <Arduino.h>
 #include "FSi6X.h"
-#include "Muth.h"
+#include "Math.h"
 #include "Timer.h"
 
 // MCU
@@ -20,7 +20,6 @@
 // GLOBAL VARIABLE Declarations
 // Keep global variables to a minimum...
 uno::FSi6X flysky;
-uno::Muth<double> muth;
 uno::Timer debugTimer;
 
 void setup()
@@ -103,8 +102,6 @@ void setup()
   //       Step (2) has NO Adrduino generator except
   //       what comes from the FS-iA6B Receiver.
   ////////////////////////////////////////////
-  muth = uno::Muth<double>();
-  //
   // Instantiate debugTimer
   debugTimer = uno::Timer();
 }
@@ -170,14 +167,14 @@ void mapDutyCycle()
                        //////////////////////////////////////////
 
   double dutyCycle = flysky.DutyCycle();
-  double x = muth.map(dutyCycle, Lo1, Hi1, 0.0, 1.0);
+  double x = nmr::map(dutyCycle, Lo1, Hi1, 0.0, 1.0);
   if (x < 0.0)
     x = 0.0;
   if (x > 1.0)
     x = 1.0;
 
   dutyCycle = flysky.DutyCycle(2);
-  double y = muth.map(dutyCycle, Lo2, Hi2, 0.0, 1.0);
+  double y = nmr::map(dutyCycle, Lo2, Hi2, 0.0, 1.0);
   if (y < 0.0)
     y = 0.0;
   if (y > 1.0)
@@ -197,7 +194,7 @@ void debugDrawLine()
 
 void selfTest_Step1()
 {
-  if (debugTimer.IsTimer(1000))
+  if (debugTimer.isTimer(1000))
   {
     bool hasTwoPins = false;
 
@@ -213,7 +210,7 @@ void testFSi6X_Step2()
 {
   // bool hasTwoPins = true;
 
-  if (debugTimer.IsTimer(1000))
+  if (debugTimer.isTimer(1000))
   {
     debugDrawLine();
 
