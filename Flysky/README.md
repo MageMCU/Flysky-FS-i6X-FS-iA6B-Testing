@@ -8,8 +8,8 @@
 - **FSi6X.h**
 
 ***Dependencies***
-- ***Timer.h***        (Located in the Joystick_Uno_Depository.)
-- ***Math.h***         (Located in the Numerics Depository.)
+- ***Timer.h***        (Located in the Joystick_Uno_L298N Repository.)
+- ***MiscMath.h***     (Located in the Numerics Repository.)
 
 ## ***src folder***
 
