@@ -18,3 +18,7 @@
 ## ***root folder***
 
 - platformio.ini        (please review this document for platform configuration while testing the code.)
+
+## ***Issues***
+
+- Will replace **FSi6X.h** with **PWM.h** located in the Communication repository... 20230407
