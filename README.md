@@ -2,7 +2,7 @@
 - namespace ***uno***
 
 ## Archived
-- I was disappointed with the FS-iA6B Receiver's output but to be fair, many radio receivers behave similarly. It was my hope that its output was similar to the Atmega328P MCU. Unforunately they're not even close to what I needed... Radio Controllers have its purpose but I needed more flexibility.
+- I was disappointed with the FS-iA6B Receiver's output but to be fair, many radio receivers behave similarly. It was my hope that its output would be similar to the Atmega328P MCU. Unforunately they're not even close to what I needed... Radio Controllers have its purpose but, I needed more flexibility.
 - This project is dead...........
 - I have moved to Wireless Communication where the flexibility may be better and sure enough, I just finish the beginning for the repository Wireless Communication - nRF24L01+.
 ## About Testing <a name="about-testing"></a>
